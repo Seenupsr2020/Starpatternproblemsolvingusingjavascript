@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document50</title>
+</head>
+<body>
+    <script>
+         var str=""
+        for(i=1;i<=5;i++)  {
+            
+            if (i==5) {
+                for(k=1;k<=9;k++){
+                       str+="*";
+                }
+            }
+            
+               else{
+               for(j=1;j<=i*2;j++){
+                str+="*";
+                if(j==i){
+                    for(s=1;s<=9-i*2;s++){
+                           str+=" "
+                    }
+                }
+                     
+                       
+                    
+            }
+           
+          }
+            
+            
+           
+            str+="\n"
+        }
+              console.log(str);
+              
+               
+    </script>
+</body>
+</html>

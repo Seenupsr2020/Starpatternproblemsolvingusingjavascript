@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var str="";
+       var m=1;
+        for(i=1;i<=7;i++){
+      
+        if(i>=5){
+            m=m+2;
+          for(a=1;a<=i-m;a++){
+            
+            str+=" "
+          }  
+         for(j=1;j<=i-3;j++){
+                str+="*"+" "
+            }
+            
+        }else{
+            for(k=1;k<i;k++){
+        str+=" "
+        }        
+       for(j=4;j>=i;j--){
+          str+="*"+" "
+
+        }
+        }
+        str+="\n"
+        }
+      
+        console.log(str)
+      
+    </script>
+</body>
+</html>
+

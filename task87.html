@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str=""
+        for(i=1;i<=8;i++){
+            if (i<=4) {
+                for(k=1;k<=i-1;k++){
+                     str+=" "
+                }
+                for(j=1;j<=5-i;j++){
+                   str+=" "+"*"
+                }
+            }
+            else{
+                for(k=1;k<=8-i;k++){
+                str+=" "
+                }
+               for(j=1;j<=i-4;j++){
+                    str+=" "+"*"
+                }
+            }
+            str+="\n"
+        }
+        console.log(str);
+        
+    </script>
+</body>
+</html>
+
+
